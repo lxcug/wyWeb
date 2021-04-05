@@ -1,0 +1,48 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(to bottom right, #7AFFAF, #7A88FF);
+}
+
+li {
+    margin-top: auto;
+    list-style: none;
+    float: left;
+    width: 30%;  /*三列图片排列*/
+}
+li img {
+    width: 100%;
+}
+.img {
+    margin: 40px;
+    border: 2px #64ccde solid;
+}
+
+.data {
+    font-size: 20px;
+}
+
+.indexForm {
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border: 1px rgba(93, 197, 219, 0.9);
+    font-style: inherit;
+}
+
+.imgUl {
+    margin: 10px 20px;
+}
+
+.button {
+    margin: 3px;
+    font-size: 18px;
+    color: #fff;
+    background: #28abde;
+    border-radius: 5px;
+    top: 50px;
+    left: 30%;
+}

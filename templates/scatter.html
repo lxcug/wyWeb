@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/cssl.css">
+    <title>散点图</title>
+    <style type="text/css">
+    span{
+        font-size: 20px;
+        }
+    label{
+        color: slateblue;
+        }
+    input{margin: 14px}
+    input{
+        background-color: lavender;
+        }
+    {#body{#}
+    {#    background-color: paleturquoise;#}
+    {#    }#}
+    fieldset{
+        font-size: 12px;
+        font-family: "微软雅黑, consolas";
+        margin: 8px;
+        border-color: white;
+        }
+    .login-in{
+        text-align: center;
+        background-color: white;
+        left: 50%;
+        top: 50%;
+        }
+    .language{
+        text-align: initial;
+        left: 30%;
+    }
+    </style>
+</head>
+<body>
+    <form method="POST" action="/ansS">
+        <div class="data" style="text-align: center;"> x：<input type="text" name="x"/> <br/></div>
+        <div class="data" style="text-align: center;"> y：<input type="text" name="y"/> <br></div>
+        <div class="data" style="text-align: center;"> 标题：<input type="text" name="title"/> <br></div>
+        <div class="data" style="text-align: center;"> 标签：<input type="text" name="label"/> <br></div>
+        <div class="data" style="text-align: center;"> <input type="submit" value="plot"/> </div>
+    </form>
+</body>
+</html>
